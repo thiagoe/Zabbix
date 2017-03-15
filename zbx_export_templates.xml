@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export>
+    <version>3.2</version>
+    <date>2017-03-15T20:35:08Z</date>
+    <groups>
+        <group>
+            <name>200-Switchs</name>
+        </group>
+    </groups>
+    <templates>
+        <template>
+            <template>203-DATACOM</template>
+            <name>203-DATACOM</name>
+            <description/>
+            <groups>
+                <group>
+                    <name>200-Switchs</name>
+                </group>
+            </groups>
+            <applications/>
+            <items/>
+            <discovery_rules/>
+            <httptests/>
+            <macros/>
+            <templates>
+                <template>
+                    <name>204-Geral Datacom</name>
+                </template>
+                <template>
+                    <name>209-Interfaces- 64bits Datacom</name>
+                </template>
+            </templates>
+            <screens/>
+        </template>
+    </templates>
+</zabbix_export>
